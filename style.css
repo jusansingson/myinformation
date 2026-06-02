@@ -1423,6 +1423,34 @@ section {
     margin-bottom: 4px;
 }
 
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 14px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: var(--text-main);
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: var(--transition-smooth);
+}
+
+.social-link:hover {
+    background: linear-gradient(135deg, rgba(0, 242, 254, 0.16), rgba(127, 0, 255, 0.16));
+    border-color: var(--primary);
+    color: var(--text-main);
+}
+
 .contact-value {
     font-family: var(--font-heading);
     font-size: 1rem;
